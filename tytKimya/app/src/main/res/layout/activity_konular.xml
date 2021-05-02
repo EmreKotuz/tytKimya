@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".konular">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageee"
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                app:srcCompat="@android:drawable/alert_dark_frame" />
+
+            <TextView
+                android:id="@+id/diger"
+                android:layout_width="397dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Diğer >"
+                android:textColor="@color/deneme" />
+
+            <TextView
+                android:id="@+id/whatsappKonular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Whatsapp Grubumuza Katılmak için    >"
+                android:textColor="@color/mor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/mor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/yorum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uygulama sorunlarını bizimle paylaş    >"
+                android:textColor="@color/mavi"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="370dp"
+                android:layout_height="1dp"
+                android:background="@color/mavi"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView611"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <Button
+                android:id="@+id/haber"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/gn"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/kimyaGelisimi"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@mipmap/kgg" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/kimyaKanun"
+                android:background="@mipmap/kkanun"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/maddeveozellikButton"
+                android:background="@mipmap/maddeveoz"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/molButton"
+                android:background="@mipmap/molkav"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/atomButton"
+                android:background="@mipmap/atomveya"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/bilesikButton"
+                android:background="@mipmap/bilee"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/peryodikButton"
+                android:background="@mipmap/ptablo"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
